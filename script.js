@@ -1,0 +1,9 @@
+YaakovspeakWord.sayHello();
+PaulspeakWord.sayHello();
+FrankspeakWord.sayHello();
+LarryspeakWord.sayHello();
+PaulaspeakWord.sayHello();
+LauraspeakWord.sayHello();
+johnspeakWord.sayBye();
+jamesspeakWord.sayBye();
+jimspeakWord.sayBye();

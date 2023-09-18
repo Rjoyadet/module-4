@@ -21,6 +21,7 @@ for (var i = 0; i < names1.length; i++) {
     byeSpeaker.speak = function(){
       console.log("bye " + names1[i]);
     }
+
     } else {
        var helloSpeaker = "hello ";
     helloSpeaker.speak = function(names1){

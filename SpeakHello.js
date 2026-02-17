@@ -1,5 +1,5 @@
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim", "Bob"];
 
 (function (window) {
 var YaakovspeakWord = {}
@@ -62,4 +62,12 @@ LauraspeakWord.sayHello = function () {
  }
  window.LauraspeakWord = LauraspeakWord;
 
+(function (window) {
+var BobspeakWord = {}
+BobspeakWord.name = "Bob";
+var Speakword ="Hello ";
+BobSpeakWord.sayHello = function () {
+console.log (speakWord + BobspeakWord + BobspeakWord.name);
+}
+window.BobspeakWord = BobspeakWord;
 })(window);
